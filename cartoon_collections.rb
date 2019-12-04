@@ -24,7 +24,9 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 counter = 0 
 
   while counter < ingridents.count do 
-   if ingridents.include
+   if ingridents.include?(cheese_types[counter]) == true 
+    return cheese_types[counter]
+   counter += 1 
   end   
-  
+return nil   
 end
