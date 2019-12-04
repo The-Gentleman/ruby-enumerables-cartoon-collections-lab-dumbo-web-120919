@@ -7,7 +7,7 @@ planeteer_calls.map{|fruit| p "#{fruit.capitalize}!"}
 end
 
 def long_planeteer_calls(words_array)
-p words_array
+# words_array = ["axe", "earth", "wind", "fire"]
 end
 
 def find_the_cheese# code an argument here
