@@ -21,7 +21,7 @@ def find_the_cheese(ingridents)
 # a = [ "a", "b", "c" ]
 # a.include?("b")   #=> true
 # a.include?("z")   #=> false
-ingridents = ["banana", "cheddar", "sock"]  
+# ingridents = ["banana", "cheddar", "sock"]  
 cheese_types = ["cheddar", "gouda", "camembert"]
 ingridents.include?(cheese_types)
   
