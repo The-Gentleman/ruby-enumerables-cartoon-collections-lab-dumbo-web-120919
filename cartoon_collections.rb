@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarf_names)
- 
+ p dwarf_names
  
  
  
