@@ -21,10 +21,10 @@ def find_the_cheese(ingridents)
 
 # ingridents = ["banana", "cheddar", "sock"]  
 cheese_types = ["cheddar", "gouda", "camembert"]
+counter = 0 
 
-ingridents.reduce(ingridents)
- if ingridents.include?(cheese_types) == false 
-   return nil
- end 
+  while counter < ingridents.count do 
+   if ingridents.include
+  end   
   
 end
