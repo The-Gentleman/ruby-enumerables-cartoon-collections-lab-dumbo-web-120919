@@ -3,7 +3,7 @@ dwarf_names.each_with_index{|dwarf, index| puts "#{index + 1} #{dwarf}"}
 end
 
 def summon_captain_planet(planeteer_calls)
-p planeteer_calls
+# planeteer_calls= ["apple", "banana", "orange"]
 end
 
 def long_planeteer_calls# code an argument here
