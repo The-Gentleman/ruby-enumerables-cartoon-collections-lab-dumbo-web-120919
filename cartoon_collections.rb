@@ -23,6 +23,8 @@ def find_the_cheese(ingridents)
 # a.include?("z")   #=> false
 # ingridents = ["banana", "cheddar", "sock"]  
 cheese_types = ["cheddar", "gouda", "camembert"]
+
+ingridents.reduce{}
 ingridents.include?(cheese_types)
   
   
