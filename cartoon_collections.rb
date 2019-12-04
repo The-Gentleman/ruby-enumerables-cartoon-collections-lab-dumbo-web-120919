@@ -10,14 +10,10 @@ def long_planeteer_calls(words_array)
 # words_array = ["axe", "earth", "wind", "fire"]
  
   words_array.each do |string|
-   if string.length > 4 
-     return true 
-   end 
-   if string.length < 4
-     return false 
+   if string.length < 4 
+     return false
    end 
   end 
-  
 end
 
 def find_the_cheese# code an argument here
