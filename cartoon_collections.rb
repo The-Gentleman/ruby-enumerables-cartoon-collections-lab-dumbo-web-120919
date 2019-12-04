@@ -10,7 +10,7 @@ def long_planeteer_calls(words_array)
 # words_array = ["axe", "earth", "wind", "fire"]
  
   words_array.each do |string|
-  p #{string} 
+  p string 
   end 
  
 end
