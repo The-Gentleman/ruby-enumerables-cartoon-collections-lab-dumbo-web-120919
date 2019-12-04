@@ -7,11 +7,10 @@ planeteer_calls.map{|fruit| p "#{fruit.capitalize}!"}
 end
 
 def long_planeteer_calls(words_array)
-# words_array = ["axe", "earth", "wind", "fire"]
- 
+
   words_array.each do |string| 
    if string.length >= 5  
-     return true 
+    return true 
    end 
   end 
 
