@@ -18,6 +18,6 @@ return false
 end
 
 def find_the_cheese(ingridents)
-p ingridents  
+# ingridents = ["banana", "cheddar", "sock"]  
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
