@@ -24,7 +24,7 @@ def find_the_cheese(ingridents)
 # ingridents = ["banana", "cheddar", "sock"]  
 cheese_types = ["cheddar", "gouda", "camembert"]
 
-ingridents.reduce
+ingridents.reduce(ingridents)
 ingridents.include?(cheese_types)
   
   
