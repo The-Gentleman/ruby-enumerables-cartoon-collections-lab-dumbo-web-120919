@@ -26,7 +26,8 @@ counter = 0
   while counter < ingridents.count do 
    if ingridents.include?(cheese_types[counter]) == true 
     return cheese_types[counter]
-   counter += 1 
+    counter += 1 
+   end 
   end   
 return nil   
 end
