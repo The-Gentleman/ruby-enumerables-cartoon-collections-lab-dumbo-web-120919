@@ -3,14 +3,11 @@ dwarf_names.each_with_index{|dwarf, index| puts "#{index + 1} #{dwarf}"}
 end
 
 def summon_captain_planet(planeteer_calls)
-# planeteer_calls= ["apple", "banana", "orange"]
-
 planeteer_calls.map{|fruit| p "#{fruit.capitalize}!"}
-
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words_array)
+p words_array
 end
 
 def find_the_cheese# code an argument here
